@@ -3,8 +3,8 @@ import OpenAI from "openai";
 
 class AI {
     constructor() {
-        this.gpt = new OpenAI({ apiKey: "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" })
-        this.gemini = new GoogleGenerativeAI("AIzaSyBg-dF61Qtpxu1wy9ZntinWHFgFSngwOZo");
+        this.gpt = new OpenAI({ apiKey: "" })
+        this.gemini = new GoogleGenerativeAI("");
     }
 
 
